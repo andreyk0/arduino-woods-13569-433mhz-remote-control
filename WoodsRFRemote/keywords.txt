@@ -1,0 +1,6 @@
+WoodsRfRemote KEYWORD1
+ON KEYWORD1
+OFF KEYWORD1
+
+begin KEYWORD2
+sendCommand KEYWORD2

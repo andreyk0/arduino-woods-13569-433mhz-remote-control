@@ -9,6 +9,8 @@
 #define ON (true)
 #define OFF (false)
 
+#define NUM_RF_RC_OUTLETS 3
+
 class WoodsRFRemote {
   public:
     WoodsRFRemote(byte outPin);

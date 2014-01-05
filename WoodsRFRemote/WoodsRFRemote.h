@@ -20,21 +20,21 @@ class WoodsRFRemote {
     const byte outPin;
 
     inline void sendPause() {
-      delayMicroseconds(11980);
+      delayMicroseconds(10000);
     }
 
     inline void sendBit0() {
       digitalWrite(outPin, HIGH);
-      delayMicroseconds(552);
+      delayMicroseconds(522);
       digitalWrite(outPin, LOW);
-      delayMicroseconds(1862);
+      delayMicroseconds(1855);
     }
 
     inline void sendBit1() {
       digitalWrite(outPin, HIGH);
-      delayMicroseconds(1772);
+      delayMicroseconds(1735);
       digitalWrite(outPin, LOW);
-      delayMicroseconds(654);
+      delayMicroseconds(647);
     }
 };
 

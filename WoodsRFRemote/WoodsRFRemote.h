@@ -13,10 +13,12 @@
 
 class WoodsRFRemote {
   public:
-    WoodsRFRemote(byte outPin);
+    // channel: 'F', 'D'
+    WoodsRFRemote(const char channel, const byte outPin);
     void sendCommand(uint8_t outlet, bool isOn, uint8_t numTimes = 10);
 
   private:
+    const char channel;
     const byte outPin;
 
     inline void sendPause() {

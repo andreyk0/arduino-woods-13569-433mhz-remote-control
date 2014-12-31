@@ -3,7 +3,7 @@
 A small arduino library that implements remote control codes for this device.
 http://www.amazon.com/Woods-13569-Indoor-Wireless-Control/dp/B003ZTWYXY
 
-Codes were measured for channel 'F'.
+Codes were measured for channel 'F', feel free to contribute codes for other channels.
 
 Hardware: any of the cheap 433Mhz arduino-compatible transimmter 3wire (+,-,data) modules.
 

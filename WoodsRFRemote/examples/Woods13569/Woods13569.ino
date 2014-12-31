@@ -1,8 +1,9 @@
 
 #include <WoodsRFRemote.h>
 
-// connected digital pin (2) to 433mhz transmitter data pin
-WoodsRFRemote woodsRf(2);
+// Channel 'F' remote.
+// Digital pin (2) is connected to 433mhz transmitter data pin.
+WoodsRFRemote woodsRf('F', 2);
 
 void setup() {
   // debugging and sensors data back to host

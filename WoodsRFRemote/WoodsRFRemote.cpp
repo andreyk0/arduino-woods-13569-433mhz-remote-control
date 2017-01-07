@@ -1,6 +1,11 @@
 
 #include "WoodsRFRemote.h"
-#include <avr/pgmspace.h>
+
+#if (defined(__AVR__))
+#include <avr\pgmspace.h>
+#else
+#include <pgmspace.h>
+#endif
 
 #define NUM_CODES (2*NUM_RF_RC_OUTLETS)
 
